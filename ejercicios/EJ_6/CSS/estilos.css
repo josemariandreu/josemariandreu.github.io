@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding:0px;
+	position: absolute;
+
+   left: 30%;
+	right:50%;
+   width: 50%;
+   margin: -15% 25 0 -25%;
+
+}
+h1{
+	
+   	font-height: lighter;
+}
+h4{
+	font-size: 11px;
+	color: gray;
+}
+p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: lighter;
+	text-align: justify;
+}
+ul{
+	list-style:none;
+}
+a{
+	color:darkslategray;
+	text-decoration: none;
+
+}
+a:hover{
+	color:black;
+}
+.NoEnlace:hover{
+	text-decoration: line-through;
+}
+.Footer{
+	display: inline-block;
+	width: 25%;
+	padding-left: 0px;
+	font-size: 11pt;
+	
+}
+.Footer2{
+	padding: 5px;
+	margin-right: 40%;
+	margin-bottom: 0px;
+	background-color: black;
+	font-size: 11pt;
+	color: whitesmoke;
+}
+.general{
+	align-content: center;
+	width: 400px;
+}
