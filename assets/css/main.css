@@ -117,10 +117,12 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #4eb980;
 		text-decoration: none;
+		filter: opacity(50%);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
+			filter: opacity(100%);
 		}
 
 	strong, b {

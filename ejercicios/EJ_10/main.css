@@ -1,0 +1,29 @@
+body{
+	background-color: black;
+}
+header {
+	text-align: center;
+}
+
+section {
+	color:white;
+	text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+img {
+    width: 25%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+a:hover img {
+   filter: grayscale(0%);
+}
+.logo{
+	width: 10%;
+	filter: blur(0px);
+	
+}
+
+
