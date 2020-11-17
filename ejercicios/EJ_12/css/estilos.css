@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	/*background-color: #007c64;*/
 	background-color: black;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	margin:0px;
@@ -32,12 +31,14 @@ img:hover{
 
 .logo{
 	width: 10%;
-
+}
+.logo:hover{
+	transform: none;
 }
 .bloquefoto{
 	text-align:center;
-	background-color: aquamarine;
 }
 .piefoto{
-	background-color: red;
+	color:white;
+	background-color: black;
 }
