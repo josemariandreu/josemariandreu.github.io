@@ -5,6 +5,9 @@
 .menu, .main, .right{
 width: 100%;
   }
+	#uno, #dos, #cero{
+		width: 100%;
+	}
 }
 * {
   box-sizing: border-box;
