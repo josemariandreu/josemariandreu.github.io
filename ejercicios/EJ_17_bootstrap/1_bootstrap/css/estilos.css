@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	text-align: center;
+}
+
+.color1{
+	background-color: antiquewhite;
+}
+.color2{
+	background-color: bisque;
+}
+.altura {
+        height: 800px;
+    }
