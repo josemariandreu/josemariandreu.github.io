@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family:Helvetica;
+}
+p{
+	font-size: 0.9rem;
+}
+button{
+	border-radius: 25px !important;
+}
