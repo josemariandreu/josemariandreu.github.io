@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>menu y carrusel</title>
+	    <title>Bootstrap</title>
+    	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	
+	<!---------------------------------Barra menú--------------------------------------->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark fondo">
+	  	<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo_nike.png" alt="logo nike" class="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Contact</a>
+				</li>
+			  </ul>
+			</div>
+	  </div>
+	</nav>
+	
+	<!----------------------------------Carrusel-------------------------------------->
+	
+	<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!--<ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>-->
+    <div class="carousel-inner" role="listbox">
+		
+      <!--------------------------- foto inicial --------------------------------->
+		
+      <div class="carousel-item active" id="foto0">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h2 class="display-4">Just do it</h2>
+          <p class="lead">Enjoy the experience</p>
+        </div>
+      </div>
+      <!--------------------------- foto 1 --------------------------------->
+		
+      <div class="carousel-item" id="foto1">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h2 class="display-4">Baloncesto</h2>
+          <p class="lead">Pilla el rebote</p>
+        </div>
+      </div>
+      <!--------------------------- foto 2 --------------------------------->
+		
+      <div class="carousel-item" id="foto2">
+        <div class="carousel-caption d-none d-md-block mb-5">
+          <h2 class="display-4">Boxeo</h2>
+          <p class="lead">Mueve como mariposa pica como avispa</p>
+        </div>
+      </div>
+    </div>
+	 <!--------------------------- controles ---------------------------------> 
+	  
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">atrás</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">siguiente</span>
+        </a>
+  </div>
+</header>
+	
+	<!----------------------------------Sección-------------------------------------->
+
+	<section class="container py-5">
+  <div class="container">
+    <h1 class="display-4">Nike <br>Digital</h1>
+    <p class="lead mt-4">
+Product & vision<br></p>
+<p class="mt-5">
+	Since 2017, our team has partnered with Nike to imagine, design, and launch some of Nike’s most innovative concepts in mobile commerce. Challenged to help strengthen Nike’s relationship with its most devoted fanbase, our team worked closely with Nike Digital to create mobile experiences that capture the magic of unlocking Nike’s most exclusive products. Nike’s rapid pace of innovation in mobile commerce has been covered extensively by Fast Company, Mashable, Engadget, PSFK, and Hypebeast.
+	  </p>
+	  <ul class="list-unstyled text-muted my-5">
+	  	<li class="my-4">
+		  Art Direction
+		</li>
+		<li class="my-4">
+			Interaction Design
+		</li>
+		<li class="my-4">
+			Experience Design
+		</li>
+		<li class="my-4">
+			Motion Design
+		</li>
+		<li class="my-4">
+			Prototyping
+		</li>
+	  </ul>
+</div>
+</section>
+	
+	<!----------------------------------Footer-------------------------------------->
+	
+<nav class="navbar bottom navbar-dark fondo px-5 altura">
+	<a href="#" class="text-white-50">Projects</a>
+	<a href="#" class="text-white-50">Studio</a>
+	<a href="#" class="text-white-50">News</a>
+	<a href="#" class="text-white-50">Careers</a>
+	<a href="#" class="text-white-50">Contact</a>
+</nav>
+
+	
+</body>
+</html>
