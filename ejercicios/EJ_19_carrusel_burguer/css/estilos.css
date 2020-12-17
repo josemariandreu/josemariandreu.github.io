@@ -21,15 +21,15 @@
 }
 
 #foto0{
-	background-image: url("../img/atletismo.jpg");
+	background-image: url("../img/basket.jpg");
 	 filter: grayscale(100%);
 }
 #foto1{
-	background-image: url("../img/Nike-Basketball-copy1.jpg");
+	background-image: url("../img/atletismo.jpg");
 	filter: grayscale(100%);
 }
 #foto2{
-	background-image: url("../img/boxeo.jpeg");
+	background-image: url("../img/boxeo.jpg");
 	filter: grayscale(100%);
 }
 .altura{
