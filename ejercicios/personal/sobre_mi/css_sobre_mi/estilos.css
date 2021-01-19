@@ -15,6 +15,40 @@ html {
 
 }
 
+i{
+	color:#dc3545;
+}
 
 
+/*----------------- BARRAS DE PROGRESO----------------------*/
+
+.photoshop{
+	background-color:#2fa3f7 !important;
+}
+.illustrator{
+	background-color:#f79502 !important;
+}
+.indesign{
+	background-color:#f63263 !important;
+}
+.dream{
+	background-color:#f75fee !important;
+}
+.premier{
+	background-color:#9494f7 !important;
+}
+
+
+/*---------------- ANIMACIÓN BARRAS DE PROGRESO---------------*/
+
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
 
